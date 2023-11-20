@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Landing Page - WYDN</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#!">WYDN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#!">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iconList">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shopPage.html">Shop</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <a class="btn btn-primary" href="login.html">Log In</a>
+          <a class="btn btn-primary" href="register.html">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <div class="text-center text-white">
+              <!-- Page heading-->
+              <h1 class="mb-5">WYDN 에서 세계 최고의 자전거들을 만나보세요!</h1>
+
+              <form
+                action="shopPage.html"
+                class="form-subscribe"
+                id="contactForm"
+                data-sb-form-api-token="API_TOKEN"
+              >
+                <!-- Email address input-->
+                <div class="row">
+                  <div class="col">
+                    <input
+                      class="form-control form-control-lg"
+                      id="searchText"
+                      type="text"
+                      placeholder="Search Your Bicycles"
+                      data-sb-validations="required"
+                    />
+                  </div>
+                  <div class="col-auto">
+                    <button
+                      class="btn btn-primary btn-lg"
+                      id="submitButton"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Image Showcases-->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div
+            class="col-lg-6 order-lg-2 text-white showcase-img"
+            style="
+              background-image: url('assets/img/bg-showcase-1.jpg');
+              background-position: center center;
+            "
+          ></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>9개의 세계 최고 자전거 브랜드</h2>
+            <p class="lead mb-0">
+              세계적으로 최고의 기술을 보유한 전 세계의 9개의 자전거 브랜드와
+              협업하여 소비자님들께 최고의 서비스를 제공합니다.
+            </p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div
+            class="col-lg-6 text-white showcase-img"
+            style="
+              background-image: url('assets/img/bg-showcase-2.jpg');
+              background-position: center center;
+            "
+          ></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>7개의 다양한 자전거 종류</h2>
+            <p class="lead mb-0">
+              어린이용 자전거부터 산악 자전거, 전기 자전거까지. 찾고 싶은 모든
+              자전거들을 WYDN에서 찾으세요.
+            </p>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div
+            class="col-lg-6 order-lg-2 text-white showcase-img"
+            style="background-image: url('assets/img/bg-showcase-3.jpg')"
+          ></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>전세계의 1000명이 넘는 사용자</h2>
+            <p class="lead mb-0">
+              WYDN은 전세계에서 1500명에 달하는 고객이 선택했습니다. 인정받은
+              서비스를 경험해보세요.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Icons Grid-->
+    <section class="features-icons bg-light text-center" id="iconList">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="bi-facebook m-auto text-primary"></i>
+              </div>
+              <h3>Facebook</h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="bi-twitter m-auto text-primary"></i>
+              </div>
+              <h3>Twitter</h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="bi-instagram m-auto text-primary"></i>
+              </div>
+              <h3>Instagram</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><a href="#!">About</a></li>
+              <li class="list-inline-item">⋅</li>
+              <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+              <li class="list-inline-item">⋅</li>
+              <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">
+              &copy; WYDN 2023. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+        <a class="navbar-brand" href="#">WYDN</a>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
